@@ -23,6 +23,16 @@ This loss compares the high-level features of the generated image and the ground
 
 The discriminator is trained with the Wasserstein GAN loss function.
 
+## Results
+
+![image](https://github.com/SharmithaYazhini/Image-Deblurring-using-GAN/assets/104150250/0ba6abca-a7cf-45c2-8b05-cb2eccd4eb7e)
+
+## Benchmark:
+
+![image](https://github.com/SharmithaYazhini/Image-Deblurring-using-GAN/assets/104150250/4d42aa8c-ed84-4132-90f4-ae9ce41f2633)
+
+
+
 ## Usage
 To train the model, run the fit() function with the appropriate dataset and number of steps. The model checkpoints will be saved every 5,000 steps in the training_checkpoints directory.
 To test the model, use the generate_images() function and provide a blurred input image. The function will generate and display the deblurred output alongside the input and ground truth sharp images.
